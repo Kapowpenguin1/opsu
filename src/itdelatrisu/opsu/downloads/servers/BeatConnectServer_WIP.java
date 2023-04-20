@@ -49,10 +49,10 @@ import org.newdawn.slick.util.Log;
  */
 public class OsuMirrorServer extends DownloadServer {
 	/** Server name. */
-	private static final String SERVER_NAME = "osu!Mirror BeatConnect";
+	private static final String SERVER_NAME = "osu!Mirror New";
 
 	/** Formatted download URL: {@code beatmapSetID} */
-	private static final String DOWNLOAD_URL = "http://loli.al/d/%d/";
+	private static final String DOWNLOAD_URL = "https://beatconnect.io/b/%d/";
 
 	/** Formatted search URL: {@code page,query} */
 	private static final String SEARCH_URL = "http://loli.al/mirror/search/%d.json?keyword=%s";
